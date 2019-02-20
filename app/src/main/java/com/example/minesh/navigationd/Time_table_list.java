@@ -202,7 +202,7 @@ public class Time_table_list extends AppCompatActivity{
                         "Assistant Professor"
                 )
         );
-
+/**/
         facultyList.add(
                 new Faculty_list_classs(
                         R.drawable.vaishalimewada,
