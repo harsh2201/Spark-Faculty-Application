@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"
+        android:visible="true">
+        <item
+            android:id="@+id/timetable"
+            android:icon="@drawable/ic_calendar"
+            android:title="Time Table" />
+        <item
+            android:id="@+id/faculty_info"
+            android:icon="@drawable/ic_professor"
+            android:title="Faculty Information" />
+        <item
+            android:id="@+id/LabOccupancy"
+            android:icon="@drawable/ic_workspace"
+            android:title="Lab Vacancy" />
+        <item
+            android:id="@+id/result"
+            android:icon="@drawable/ic_exam"
+            android:title="Results" />
+    </group>
+
+    <item >
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_credits"
+                android:icon="@drawable/ic_support"
+                android:title="Credits" />
+        </menu>
+    </item>
+
+</menu>

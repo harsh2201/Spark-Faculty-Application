@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.minesh.navigationd">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/spark_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/spark_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main_screen"
+            android:theme="@style/TranslucentTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:theme="@style/TranslucentTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Time_table_list"
+            android:label="Time Table"
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".Splash"/>
+        <activity
+            android:name=".Faculty_info_list"
+            android:label="Faculty Information"
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".Splash"/>
+        <activity
+            android:name=".Schedule"
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".Splash"/>
+        <activity
+            android:name=".FacultyInformation"
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".Splash"/>
+        <activity
+            android:name=".Main_result_import"
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".Splash"/>
+        <activity
+            android:name=".LabOccupancy"
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".Splash"/>
+        <activity
+            android:name=".Credits"
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".Splash"/>
+        <activity
+            android:name=".Selector"
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".Splash"/>
+        <activity
+            android:name=".Faculty_login"
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".Splash"/>
+        <activity
+            android:name=".Result_list"
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".Splash"/>
+        <activity
+            android:name=".ResetPassword"
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".Splash"/>
+    </application>
+
+</manifest>
