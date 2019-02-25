@@ -100,10 +100,10 @@
     <Button
         android:id="@+id/resetButton"
         style="@android:style/Widget.Holo.Button.Borderless"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:layout_alignParentStart="true"
         android:layout_below="@+id/loginButton"
+        android:layout_alignParentStart="true"
         android:layout_marginTop="30dp"
         android:text="Forgot Password? Send Reset password Email to your Registered Email id"
         android:textColor="#ffffff"
